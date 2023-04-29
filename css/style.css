@@ -106,7 +106,7 @@ body{
      /* Панель навигации */
 
  .navbar {
-   margin-bottom: 20px;
+   margin-bottom: 15px;
     
   }
 
@@ -114,7 +114,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 960px;
+    width: 950px;
     padding: 0px 250px;
     margin: 0 auto; 
     position: relative;   
@@ -122,9 +122,13 @@ body{
    }
 
     .navbar_logo {
-      width: 90px;
-      height: 30px; 
-    
+     
+     background-image:url(../icons/projeco-logo-black1.svg);
+     background-repeat:no-repeat;
+     width: 90px ;
+     height: 30px;
+     display: block;
+     margin-top: 7px;
       
     }
 
