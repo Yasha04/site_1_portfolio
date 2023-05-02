@@ -888,7 +888,7 @@ footer {
 
       }     
     .navbar_menu {
-       padding: 0px 190px;
+       padding: 0px 200px;
        flex-wrap: wrap;
        justify-content: flex-end; 
       }
@@ -900,12 +900,20 @@ footer {
     }
     .story_right {
     flex-wrap: wrap;
+    
+    }
+    .story_item {
+      margin-right: 0px;
     }
     .story_title_1 {
       padding: 50px  50px 30px 0px;
      }
      .services_box {
       margin-left: 30px;
+     }
+     .services_text_1 {
+      width: 205px;
+      min-height: 38px;
      }
     .services-up {
       flex-wrap: wrap;
@@ -941,5 +949,12 @@ footer {
      .footer_links {
        padding: 25px 10px;
       }
+      .footer_contacts{
+        padding: 20px 0px 10px;
+      }
+      .nav1 {
+        margin-right: 0px;
+      }
   }
+
   
