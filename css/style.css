@@ -778,9 +778,11 @@ footer {
     .navbar_menu {   
     margin-left: 30px;
     justify-content: space-around;
+    padding: 0 110px;
+    width: 1090px;
    }
     .navbar_nav {
-    padding-left: 100px;
+    padding-left: 200px;
    } 
    .navbar_logo {
     padding-right: 80px;
@@ -894,6 +896,7 @@ footer {
        padding: 0px 190px;
        flex-wrap: wrap;
        justify-content: flex-end; 
+       
       }
      .navbar_logo {
        padding-left: 30px;
