@@ -775,20 +775,21 @@ footer {
    
     .navbar_menu {   
     margin-left: 30px;
+    justify-content: space-around;
    }
     .navbar_nav {
-    padding-left: 200px;
+    padding-left: 100px;
    } 
-   .nabar_logo {
+   .navbar_logo {
     padding-right: 80px;
    }  
    .story_box {
-     padding: 0 45px;
+     padding: 0 200px;
     }
  
    .services_box {
       padding:  0px;
-      margin-left: 70px;
+      margin: 0 200px;
     }
     .services-up {
       justify-content: center;
