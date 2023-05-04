@@ -6,8 +6,9 @@
 
 @font-face {
   font-family: 'Bebas Neue Bold Regular!';
-  src:local('Bebas Neue Bold Regular!');
+  src:local('Bebas Neue Bold Regular');
   src:url(../fonts/ofont.ru_Bebas\ Neue.ttf);
+  font-display: swap;
 } 
 html {
      box-sizing:border-box;
@@ -38,7 +39,7 @@ body{
    max-width: 1440px; 
    max-height: 770px; 
    position: relative;
-   background-image:url(../icons/bg.svg);
+   background-image:url(../icons/bg.jpg);
    background-repeat:no-repeat;
    background-position:center;
    background-size:cover;
@@ -268,17 +269,17 @@ body{
     /* Загрузка картинок    */ 
 
 .story_item:nth-child(1) {
-    background-image:url(../icons/Bitmap\ WE\ PLAN.svg);
+    background-image:url(../icons/Bitmap\ WE\ PLAN.jpg);
     background-repeat:no-repeat; 
 
   }
 .story_item:nth-child(2) {
-   background-image:url(../icons/Bitmap\ WE\ Manage.svg);
+   background-image:url(../icons/Bitmap\ WE\ Manage.jpg);
    background-repeat:no-repeat;
   
  }
 .story_item:nth-child(3) {
-   background-image:url(../icons/Bitmap\ WE\ Build.svg);
+   background-image:url(../icons/Bitmap\ WE\ Build.jpg);
    background-repeat:no-repeat;
    margin-right: 0px ; 
  }
@@ -380,18 +381,18 @@ body{
         /* Загрузка картинок */
          
       .services_icons_1 {
-        background-image:url(../icons/Bitmap\ \(3\).svg);
+        background-image:url(../icons/Bitmap\ \(3\).jpg);
         background-repeat:no-repeat;
       
        } 
     
       .services_icons_2 {
-        background-image:url(../icons/Bitmap\ \(2\).svg);
+        background-image:url(../icons/Bitmap\ \(2\).jpg);
         background-repeat:no-repeat;
        }
     
      .services_icons_3 {
-        background-image:url(../icons/Bitmap\ \(1\).svg);
+        background-image:url(../icons/Bitmap\ \(1\).jpg);
         background-repeat:no-repeat ;
      
        }
@@ -426,7 +427,7 @@ body{
      max-width: 1440px;
      height: 498.24px;
      position: relative;
-     background-image:url(../icons/bg1.svg);
+     background-image:url(../icons/bg1.png);
      background-repeat:no-repeat;
      background-position:center;
      background-size:cover;
