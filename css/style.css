@@ -16,13 +16,13 @@ html {
 }
 
 body{
-  font-family:'Open Sans, Bold' ; 
+/*   font-family:'Open Sans, Bold' ; 
   font-family: 'Open Sans, Regular';  
   font-family: 'Open Sans', sans-serif;
   font-family:  'Bebas Neue', cursive; 
   font-family: 'Bebas Nene Bold Regular!';  
-  font-family: 'Bebas Nene',sans-serif ; 
-
+  font-family: 'Bebas Nene',sans-serif ;  */
+  margin: 0;
 }
     /*  Внешяя обертка сайта*/
 
