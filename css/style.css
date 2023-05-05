@@ -42,7 +42,7 @@ body{
    
 .header {
    
-   width: 100%; 
+    
    min-height: 770px; 
    position: relative;
    background-image:url(../icons/bg.jpg);
@@ -190,16 +190,16 @@ body{
      }
 
      /*  Секция Story */
-.story {
-  max-width: 1440px;
-  margin: 0 auto;
- }
+   /*  .story {
+    max-width: 940px;
+    margin: 0 ; 
+    } */
 
  .story_box {
-   width: 100%;
-   max-width: 980px; 
+  /*  width: 100%;
+   max-width: 940px;  */
    padding: 0 230px ;
-
+   margin: 0;
 }
 
 .story_title_1 {
@@ -298,12 +298,13 @@ body{
 
 .services {
    margin-bottom: 100px;
-   max-width: 1440px; 
+   max-width: 940px;  
  
   }
 .services_box {
+   width: 100%;
    max-width: 940px; 
-   padding: 0 250px;
+   padding: 0 230px;
    margin: 0 auto;
   }
      
@@ -434,7 +435,7 @@ body{
 
     }
   .get-in-touch_box {
-     width: 100%; 
+    
      min-height: 498.24px;
      position: relative;
      background-image:url(../icons/bg1.png);
@@ -786,6 +787,7 @@ footer {
    
     .navbar_menu {   
     margin-left: 30px;
+    padding: 0 130px;
    }
     .navbar_nav {
     padding-left: 200px;
@@ -794,12 +796,12 @@ footer {
     padding-right: 80px;
    }  
    .story_box {
-     padding: 0 45px;
+      padding: 0 15px ;
     }
  
    .services_box {
       padding:  0px;
-      margin-left: 70px;
+     /*  margin-left: 70px; */
     }
     .services-up {
       justify-content: center;
