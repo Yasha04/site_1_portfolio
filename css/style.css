@@ -28,16 +28,16 @@ body{
 
 #wrapper {
   
-  max-width: 1440px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
 /*   Загрузка изображения в header */
    
-.header_section {
+.header {
    
-   max-width: 1440px; 
-   max-height: 770px; 
+  /*  max-width: 1440px;  */
+   min-height: 770px; 
    position: relative;
    background-image:url(../icons/bg.jpg);
    background-repeat:no-repeat;
@@ -49,8 +49,8 @@ body{
 
 
 .header_box {
-  max-width: 1440px;
-  max-height: 770px;
+ /*  max-width: 1440px; */
+  min-height: 770px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +107,7 @@ body{
      /* Панель навигации */
 
  .navbar {
-   margin-bottom: 15px;
+   margin-bottom: 20px;
     
   }
 
@@ -115,7 +115,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-   /*  max-width: 950px; */
+  /*    max-width: 950px;  */
     padding: 0px 250px;
     margin: 0 auto; 
     position: relative;   
@@ -128,7 +128,7 @@ body{
      width: 90px ;
      height: 30px;
      display: block;
-     margin-top: 7px;
+     margin-top: 10px;
       
     }
 
@@ -168,7 +168,12 @@ body{
      margin-right: 40px;
     
     }
-
+    .navbar_nav li:nth-child(3) {
+      margin-right: 20px;
+    }
+    .navbar_nav li:nth-child(4) {
+      margin-right: 30px;
+    }
    .navbar_nav li:last-child {
      margin-right: 0px;
     }
@@ -424,8 +429,8 @@ body{
 
     }
   .get-in-touch_box {
-     max-width: 1440px;
-     height: 498.24px;
+    /*  max-width: 1440px; */
+     min-height: 498.24px;
      position: relative;
      background-image:url(../icons/bg1.png);
      background-repeat:no-repeat;
@@ -471,7 +476,7 @@ body{
      /*  секция newsletter */
  
 .newsletter {
-   max-width: 1440px;
+ /*   max-width: 1440px; */
    min-height: 100px;
    position: relative;
    background-image:url(../icons/bg2.svg);
@@ -572,7 +577,7 @@ input:hover {
    /*  Футер сайта */
 
 footer {
-   max-width: 1440px;
+  /*  max-width: 1440px; */
    min-height: 299px; 
    position: relative;
    background-image:url(../icons/bg3.svg);    
