@@ -24,12 +24,18 @@ body{
   font-family: 'Bebas Nene',sans-serif ;  */
   margin: 0;
 }
+
+  
     /*  Внешяя обертка сайта*/
 
 #wrapper {
   
   max-width: 940px;
   margin: 0 auto;
+}
+  /*  Стили */
+:root {
+  --accent-color:#00A4E5;
 }
 
 /*   Загрузка изображения в header */
@@ -178,11 +184,10 @@ body{
      margin-right: 0px;
     }
   
-     /* Синий цвет ABOUT в меню навигации общий класс тэга span  */
-
-    .accent_color {
-     color: #00A4E5
-    }
+     /* Задаем переменную синий цвет для ABOUT и Кonstruct для тега span   */
+     span {
+      color:var(--accent-color);
+     }
 
      /*  Секция Story */
 .story {
