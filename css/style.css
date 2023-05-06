@@ -226,7 +226,7 @@ body{
 
 .story_left {
     width: 406px;
-    margin-right: 70px; 
+    margin-right: 70px;  
   }
 .story_title_2 {
     display: block; 
@@ -314,7 +314,7 @@ body{
     display:flex;
     justify-content: space-between;
     max-width: 940px;
-    max-height: 40px;
+    /* max-height: 40px; */
     margin-bottom: 58px;
  
   }
@@ -919,6 +919,9 @@ footer {
     .story {
      padding: 0 15px;
     }
+    .story_left {
+      margin-right: 0px;
+    }
     .story_right {
     flex-wrap: wrap;
     
@@ -935,10 +938,14 @@ footer {
      .services_text_1 {
       width: 205px;
       min-height: 38px;
+      padding-bottom: 10px;
      }
     .services-up {
-      flex-wrap: wrap;
-      margin-bottom: 150px;
+   /*    flex-wrap: wrap;
+      margin-bottom: 150px; */
+      flex-direction: column;
+      align-items:center;
+      margin-bottom: 50px;
      }
      .services-down {
        justify-content: space-around;
