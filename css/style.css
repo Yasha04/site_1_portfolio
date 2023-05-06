@@ -69,7 +69,7 @@ body{
     color: #FFFFFF;
     max-width: 101.62px;
     height: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 
    
   }
@@ -83,7 +83,7 @@ body{
     letter-spacing: 5px;
     color: #FFFFFF;
     margin: 0 auto;
-    padding-top: 265px;
+    padding-top: 300px;
 
    }
   .header_text {
@@ -95,7 +95,7 @@ body{
     color: #FFFFFF;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     
     }
   .header_title_2 {
@@ -106,7 +106,8 @@ body{
     line-height: 13px;
     letter-spacing: 3.7px;
     color: #FFFFFF;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 80px;
     
     }
   
@@ -135,6 +136,7 @@ body{
      height: 30px;
      display: block;
      margin-top: 10px;
+
       
     }
 
